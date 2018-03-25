@@ -1,0 +1,117 @@
+{
+  "UnitFourTwo" : {
+    "What is a data structure?" : {
+      "c": [
+        "A data sructure is a specialized format for organizing and storing data"
+        ],
+      "i": [
+        "Facts and statistics collected together for reference or analysis",
+        "A structure that contains a group of elements",
+        "A particular kind of data item, as defined by the values it can take"
+      ]
+    },
+    "What isn't an operation that can be performed on different data structures?" : {
+      "c": [
+        "Addition"
+        ],
+      "i": [
+        "Insertion",
+        "Deletion",
+        "Traversal",
+        "Searching",
+        "Sorting"
+        ]
+    },
+    "Which operation isn't a basic operation of a Queue?" : {
+      "c": [
+        "Peek"
+        ],
+      "i": [
+        "Enqueue",
+        "Dequeue",
+        "Front",
+        "Rear"
+        ]
+    },
+    "Which operation isn't a basic operation of a stack?": {
+      "c": [
+        "Front"
+        ],
+      "i": [
+        "Push",
+        "Pop",
+        "Peek"
+        ]
+    },
+    "On which principle does stack work?" : {
+      "c": [
+        "LIFO"
+        ],
+      "i" : [
+        "FILO",
+        "FIFO",
+        "More than one option"
+        ]
+    },
+    "Which of the following data structure is not a linear data structure?" : {
+      "c": [
+        "None that's listed"
+        ],
+      "i": [
+        "Arrays",
+        "Linked lists",
+        "Queue"
+        ]
+    },
+    "A queue is..." : {
+      "c": [
+        "FIFO"
+        ],
+      "i": [
+        "FILO",
+        "LIFO",
+        "LILO"
+        ]
+    },
+    "If the elements 'A', 'B', 'C', 'D' are placed in a queue and are deleted one at a time, in what order will they be removed?" : {
+      "c": [
+        "ABCD"
+        ],
+      "i": [
+        "DCBA",
+        "DCAB",
+        "CBAD"
+        ]
+    },
+    "In the array implementation of circular queue, which of the following operation takes the worst case linear time?": {
+      "c": [
+        "None"
+        ],
+      "i": [
+        "Insertion",
+        "To empty a queue",
+        "Deletion"
+        ]
+    },
+    "Which term is used to delete an elemnt from a stack?": {
+      "c": [
+        "Pop"
+        ],
+      "i": [
+        "Pull",
+        "Push",
+        "Pump"
+        ]
+    },
+    "In a circular list": {
+      "c": [
+        "There is no beginning and no end"
+        ],
+      "i": [
+        "Forward and backward traversal within the list is permitted",
+        "Components are arranged hierarchically",
+        "Components are all linked ogether in some sequential manner"
+        ]
+    }
+  }
+}

@@ -12,7 +12,6 @@
 		5B007C45203A2D7400D7C303 /* FriendRequestPPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B007C44203A2D7400D7C303 /* FriendRequestPPViewController.swift */; };
 		5B007C48204889E900D7C303 /* ClassesTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B007C47204889E900D7C303 /* ClassesTabBarViewController.swift */; };
 		5B029CCA2051D78F007F8FEB /* ClassesDisbandLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B029CC92051D78F007F8FEB /* ClassesDisbandLeaveViewController.swift */; };
-		5B029CD02057107C007F8FEB /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B029CCF2057107C007F8FEB /* questions.json */; };
 		5B029CD220572BDC007F8FEB /* UnitPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B029CD120572BDC007F8FEB /* UnitPickerViewController.swift */; };
 		5B029CD4205823AF007F8FEB /* ShowScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B029CD3205823AF007F8FEB /* ShowScoreViewController.swift */; };
 		5B029CD620582480007F8FEB /* IndivualQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B029CD520582480007F8FEB /* IndivualQuizViewController.swift */; };
@@ -33,6 +32,7 @@
 		5BEBCFE12036172B00FE6601 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBCFE02036172B00FE6601 /* Question.swift */; };
 		5BEBCFE3203618BD00FE6601 /* QuestionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBCFE2203618BD00FE6601 /* QuestionList.swift */; };
 		5BFEE9882059B961004AD695 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEE9872059B961004AD695 /* AddFriendsViewController.swift */; };
+		5BFEE98A2068608C004AD695 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE9892068608C004AD695 /* questions.json */; };
 		868229B6899808E139831C65 /* Pods_ComputAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476ACEE233ADF2747636E0F7 /* Pods_ComputAS.framework */; };
 		A10181481FE497D000FCAA4C /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10181471FE497D000FCAA4C /* AlertController.swift */; };
 		A101814A1FE4A61800FCAA4C /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10181491FE4A61800FCAA4C /* LoginTableViewController.swift */; };
@@ -82,7 +82,6 @@
 		5B007C44203A2D7400D7C303 /* FriendRequestPPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestPPViewController.swift; sourceTree = "<group>"; };
 		5B007C47204889E900D7C303 /* ClassesTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTabBarViewController.swift; sourceTree = "<group>"; };
 		5B029CC92051D78F007F8FEB /* ClassesDisbandLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesDisbandLeaveViewController.swift; sourceTree = "<group>"; };
-		5B029CCF2057107C007F8FEB /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = questions.json; path = ../../questions.json; sourceTree = "<group>"; };
 		5B029CD120572BDC007F8FEB /* UnitPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitPickerViewController.swift; sourceTree = "<group>"; };
 		5B029CD3205823AF007F8FEB /* ShowScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowScoreViewController.swift; sourceTree = "<group>"; };
 		5B029CD520582480007F8FEB /* IndivualQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndivualQuizViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +102,7 @@
 		5BEBCFE02036172B00FE6601 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		5BEBCFE2203618BD00FE6601 /* QuestionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionList.swift; sourceTree = "<group>"; };
 		5BFEE9872059B961004AD695 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		5BFEE9892068608C004AD695 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		A10181471FE497D000FCAA4C /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		A10181491FE4A61800FCAA4C /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
 		A108EF7620264AFA00B5A24B /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
@@ -271,7 +271,7 @@
 		A1F35AF61FDFD5F40055DB59 /* ComputAS */ = {
 			isa = PBXGroup;
 			children = (
-				5B029CCF2057107C007F8FEB /* questions.json */,
+				5BFEE9892068608C004AD695 /* questions.json */,
 				A1F35AF71FDFD5F40055DB59 /* AppDelegate.swift */,
 				A186D605200BB6FB007AA4B8 /* Storyboards */,
 				A1F7497C1FE9265000D20283 /* ErrorViewControllers */,
@@ -433,8 +433,8 @@
 				A1F35B021FDFD5F40055DB59 /* LaunchScreen.storyboard in Resources */,
 				A186D604200BB6EC007AA4B8 /* MainApp.storyboard in Resources */,
 				A1F5168E1FE84BE4006C2D7F /* RequiredInfo.storyboard in Resources */,
-				5B029CD02057107C007F8FEB /* questions.json in Resources */,
 				A1F35AFF1FDFD5F40055DB59 /* Assets.xcassets in Resources */,
+				5BFEE98A2068608C004AD695 /* questions.json in Resources */,
 				A1F35B261FE001040055DB59 /* GoogleService-Info.plist in Resources */,
 				A1F35AFD1FDFD5F40055DB59 /* Main.storyboard in Resources */,
 				A1F6273B2028C873002B80CE /* UnitFourTwo.plist in Resources */,
