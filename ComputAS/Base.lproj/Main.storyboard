@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQz-ot-ncW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQz-ot-ncW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -226,6 +226,7 @@
                         <outlet property="passwordTextField" destination="rri-1w-sOm" id="yYi-ce-CQt"/>
                         <segue destination="MhZ-JL-zIt" kind="presentation" identifier="LoginRequiredInfoSegue" id="AUL-nA-cNg"/>
                         <segue destination="0DD-EB-JAO" kind="presentation" identifier="LoginErrorSegue" id="bDN-HJ-Nxx"/>
+                        <segue destination="0DD-EB-JAO" kind="presentation" identifier="DisplayErrorSegue" animates="NO" id="Xo0-HJ-eJd"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BZ3-S7-x54" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -679,13 +680,13 @@
                         <outlet property="profileImageView" destination="hCA-fX-4O8" id="X5E-W3-taV"/>
                         <outlet property="usernameTextField" destination="7pj-8V-C4X" id="Aev-8O-y4y"/>
                         <outlet property="verifyPasswordTextField" destination="n0i-52-QQE" id="ryb-s5-uRJ"/>
-                        <segue destination="MhZ-JL-zIt" kind="presentation" identifier="RegisterRequiredInfoSegue" id="gqF-6s-82Q"/>
-                        <segue destination="0DD-EB-JAO" kind="presentation" identifier="RegisterErrorSegue" id="VZs-I8-1VO"/>
+                        <segue destination="MhZ-JL-zIt" kind="presentation" identifier="RegisterRequiredInfoSegue" animates="NO" id="gqF-6s-82Q"/>
+                        <segue destination="0DD-EB-JAO" kind="presentation" identifier="RegisterErrorSegue" animates="NO" id="VZs-I8-1VO"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S82-yA-KX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="57" y="-1533"/>
+            <point key="canvasLocation" x="57" y="-1504"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HlG-8e-Elo">
@@ -742,9 +743,9 @@
         <image name="secured-letter-filled.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bDN-HJ-Nxx"/>
+        <segue reference="Xo0-HJ-eJd"/>
         <segue reference="AUL-nA-cNg"/>
         <segue reference="v8p-v7-Kcb"/>
-        <segue reference="cmT-xw-k5e"/>
+        <segue reference="FTm-ba-uUX"/>
     </inferredMetricsTieBreakers>
 </document>

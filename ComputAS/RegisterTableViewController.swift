@@ -152,9 +152,18 @@ class RegisterTableViewController: UITableViewController, UINavigationController
             Alamofire.request(URL_USER_REGISTER, method: .post, parameters: parameters).responseJSON { response in
             
                 if let result = response.result.value {
-                
+    
                     let jsonData = result as! NSDictionary
-                    self.setEverything(loginParameters: loginParameters)
+                    
+                    if (jsonData["error"] as! Bool) {
+                        
+                        self.performSegue(withIdentifier: "RegisterErrorSegue", sender: nil)
+                        
+                    } else {
+                    
+                        self.setEverything(loginParameters: loginParameters)
+                    
+                    }
                     
                 }
                 

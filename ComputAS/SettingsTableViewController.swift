@@ -276,6 +276,7 @@ class SettingsTableViewController: UITableViewController, UIImagePickerControlle
     @IBAction func signOutDidTap(_ sender: Any) {
         
         UserDefaults.standard.setIsLoggedIn(value: false)
+        UserDefaults.standard.removeObject(forKey: "classID")
         self.performSegue(withIdentifier: "goOutSegue", sender: nil)
         
     }

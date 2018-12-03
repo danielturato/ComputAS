@@ -47,8 +47,9 @@ class LoginTableViewController: UITableViewController { // Use of object-orienta
             if let result = response.result.value {
                 
                 let jsonData = result as! NSDictionary
+                print(jsonData)
                 // If thers not an error, the request will return the user information
-                if(!(jsonData.value(forKey: "error") as! Bool)) {
+                if(!(jsonData["error"] as! Bool)) {
                 
                     let user = jsonData.value(forKey: "user") as! NSDictionary
                     
@@ -60,11 +61,11 @@ class LoginTableViewController: UITableViewController { // Use of object-orienta
                     UserDefaults.standard.setIsLoggedIn(value: true)
                     // Updates the profile picture
                     self.updateProfilePicture(id: user["id"] as! Int)
-                    
+                    self.performSegue(withIdentifier: "showWelcome", sender: nil)
                 
                 } else {
                     
-                    // ERROR, popup will show
+                    self.performSegue(withIdentifier: "DisplayErrorSegue", sender: nil)
                 
                 }
                 
@@ -74,8 +75,6 @@ class LoginTableViewController: UITableViewController { // Use of object-orienta
         }
         
         // After the request is finished, you will go back to the welcome screen.
-        
-        self.performSegue(withIdentifier: "showWelcome", sender: nil)
         
     }
     

@@ -169,11 +169,23 @@ class HomeViewController: UIViewController { // Class inherits from UIViewContro
                 switch lastNumber { // Depending on the rank, the text displayed will change
                     
                 case "1" :
-                    self.rankLabel.text = "\(rank)st"
+                    if rank.count == 2 && rank[rank.startIndex] == "1" {
+                        self.rankLabel.text = "\(rank)th"
+                    } else {
+                        self.rankLabel.text = "\(rank)st"
+                    }
                 case "2":
-                    self.rankLabel.text = "\(rank)nd"
+                    if rank.count == 2 && rank[rank.startIndex] == "1" {
+                        self.rankLabel.text = "\(rank)th"
+                    } else {
+                        self.rankLabel.text = "\(rank)nd"
+                    }
                 case "3":
-                    self.rankLabel.text = "\(rank)rd"
+                    if rank.count == 2 && rank[rank.startIndex] == "1" {
+                        self.rankLabel.text = "\(rank)th"
+                    } else {
+                        self.rankLabel.text = "\(rank)rd"
+                    }
                 default:
                     self.rankLabel.text = "\(rank)th"
                     

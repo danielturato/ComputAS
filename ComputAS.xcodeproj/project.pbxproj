@@ -38,7 +38,6 @@
 		A101814A1FE4A61800FCAA4C /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10181491FE4A61800FCAA4C /* LoginTableViewController.swift */; };
 		A108EF7720264AFA00B5A24B /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A108EF7620264AFA00B5A24B /* FriendTableViewCell.swift */; };
 		A13A6F9B1FE1D4F40087C7B9 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13A6F9A1FE1D4F40087C7B9 /* RegisterTableViewController.swift */; };
-		A174B106202A4A7700863A05 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174B105202A4A7700863A05 /* MPCManager.swift */; };
 		A186D604200BB6EC007AA4B8 /* MainApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A186D603200BB6EC007AA4B8 /* MainApp.storyboard */; };
 		A18B070E201260E800B7E45D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B070D201260E800B7E45D /* SettingsTableViewController.swift */; };
 		A1BCD5FD2029C236009C38E8 /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BCD5FC2029C236009C38E8 /* FriendTableViewController.swift */; };
@@ -58,7 +57,6 @@
 		A1F413CC2029A98400046E5A /* UserLList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F413CB2029A98400046E5A /* UserLList.swift */; };
 		A1F413CE2029B6B500046E5A /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F413CD2029B6B500046E5A /* LeaderboardViewController.swift */; };
 		A1F480CE1FE56C080009FB44 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F480CD1FE56C080009FB44 /* WelcomeViewController.swift */; };
-		A1F49AF91FE5C69200124EF6 /* ResetPasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F49AF81FE5C69200124EF6 /* ResetPasswordTableViewController.swift */; };
 		A1F49DBA20135F4A00708156 /* DataStructuresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F49DB920135F4A00708156 /* DataStructuresTableViewController.swift */; };
 		A1F4A45F2014F85B0031CE01 /* WhatAreDataStructuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A45E2014F85B0031CE01 /* WhatAreDataStructuresViewController.swift */; };
 		A1F4A8EA20278F8900EC6C81 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A8E920278F8900EC6C81 /* FriendDetailViewController.swift */; };
@@ -107,7 +105,6 @@
 		A10181491FE4A61800FCAA4C /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
 		A108EF7620264AFA00B5A24B /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		A13A6F9A1FE1D4F40087C7B9 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
-		A174B105202A4A7700863A05 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
 		A186D603200BB6EC007AA4B8 /* MainApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainApp.storyboard; sourceTree = "<group>"; };
 		A18B070D201260E800B7E45D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		A1BCD5FC2029C236009C38E8 /* FriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
@@ -129,7 +126,6 @@
 		A1F413CB2029A98400046E5A /* UserLList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLList.swift; sourceTree = "<group>"; };
 		A1F413CD2029B6B500046E5A /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		A1F480CD1FE56C080009FB44 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		A1F49AF81FE5C69200124EF6 /* ResetPasswordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordTableViewController.swift; sourceTree = "<group>"; };
 		A1F49DB920135F4A00708156 /* DataStructuresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructuresTableViewController.swift; sourceTree = "<group>"; };
 		A1F4A45E2014F85B0031CE01 /* WhatAreDataStructuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatAreDataStructuresViewController.swift; sourceTree = "<group>"; };
 		A1F4A8E920278F8900EC6C81 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
@@ -208,14 +204,6 @@
 				0C4584AAFE8A35EE162FCEF7 /* Pods-ComputAS.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		A174B104202A4A4E00863A05 /* Quiz Networking */ = {
-			isa = PBXGroup;
-			children = (
-				A174B105202A4A7700863A05 /* MPCManager.swift */,
-			);
-			name = "Quiz Networking";
 			sourceTree = "<group>";
 		};
 		A186D605200BB6FB007AA4B8 /* Storyboards */ = {
@@ -328,7 +316,6 @@
 			children = (
 				5B007C462048898E00D7C303 /* Classes Files */,
 				A1F4B2BD200E9F3A00AFAB83 /* Learning Content Controllers */,
-				A174B104202A4A4E00863A05 /* Quiz Networking */,
 				A1F413C82029A88C00046E5A /* Leaderboard User Models */,
 				A1F3206F2024D376008880F1 /* Friend Modesl */,
 				A1F413CF2029C05600046E5A /* Friend Files */,
@@ -338,7 +325,6 @@
 				A1F480CD1FE56C080009FB44 /* WelcomeViewController.swift */,
 				A13A6F9A1FE1D4F40087C7B9 /* RegisterTableViewController.swift */,
 				A18B070D201260E800B7E45D /* SettingsTableViewController.swift */,
-				A1F49AF81FE5C69200124EF6 /* ResetPasswordTableViewController.swift */,
 				A1F4B2BE200E9F8000AFAB83 /* LearnTableViewController.swift */,
 				A1F35AF91FDFD5F40055DB59 /* HomeViewController.swift */,
 				A1F5168A1FE84937006C2D7F /* RequiredInfoViewController.swift */,
@@ -533,7 +519,6 @@
 				5B029CD220572BDC007F8FEB /* UnitPickerViewController.swift in Sources */,
 				5B029CD4205823AF007F8FEB /* ShowScoreViewController.swift in Sources */,
 				5B645DAD204A12CD006D5E27 /* ClassSections.swift in Sources */,
-				A174B106202A4A7700863A05 /* MPCManager.swift in Sources */,
 				A1F4B2BF200E9F8000AFAB83 /* LearnTableViewController.swift in Sources */,
 				A10181481FE497D000FCAA4C /* AlertController.swift in Sources */,
 				A1BCD6012029CBBE009C38E8 /* UserTableViewCell.swift in Sources */,
@@ -565,7 +550,6 @@
 				5B7599F5204B5A2400746C58 /* ClassTaskPickerViewController.swift in Sources */,
 				5B645DA5204967A4006D5E27 /* ClassesIntroViewController.swift in Sources */,
 				A1BCD5FF2029CAC5009C38E8 /* LeaderboardTableViewController.swift in Sources */,
-				A1F49AF91FE5C69200124EF6 /* ResetPasswordTableViewController.swift in Sources */,
 				A1F31B82201FEDF600839FBB /* FriendViewController.swift in Sources */,
 				5B645DB1204ACBB0006D5E27 /* ClassUserTableViewCell.swift in Sources */,
 				A1BCD5FD2029C236009C38E8 /* FriendTableViewController.swift in Sources */,
